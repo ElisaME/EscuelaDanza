@@ -1,0 +1,11 @@
+/* Inserta tu codigo aqui */
+/*Banner con bailarines*/
+#banner{
+	background-image: url("../img/dance_1.jpg");
+	background-size: cover;
+	height: 400px;
+}
+.text-big{
+	font-size: 50px;
+}
+
