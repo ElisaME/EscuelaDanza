@@ -5,7 +5,65 @@
 	background-size: cover;
 	height: 400px;
 }
-.text-big{
-	font-size: 50px;
+.btn-inscribete{
+	background-color: #031124;
+	padding: 5%;
+	width: 100px;
+	margin: 3% auto;
 }
-
+/*Cita*/
+#cita{
+	background-image: url("../img/textura_2.jpg");
+	height: 300px;
+}
+#cita img{
+	max-width: 100px;
+}
+.btn-clases{
+	background-color: #031124;
+	padding: 2%;
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 18px;
+}
+/*Banner con dos fotos*/
+#fotos {
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	border-top: 1px solid #031124;
+	border-bottom: 1px solid #031124;
+}
+#fotos img{
+	max-width: 100%;
+	margin: -5% 0;
+}
+#foto2{
+	background-image: url("../img/profesor_9.jpg");
+	background-size: cover;
+	height: 400px;
+	margin: -5% 0;
+}
+.Instructores{
+	background-color: #031124;
+	padding: 2%;
+	position: absolute;
+	bottom: 0;
+	left: 35%;
+	width: 400px;
+}
+/*Seccion con frase*/
+#frase{
+	background-image: url("../img/textura_2.jpg");
+	height: 300px;
+}
+/*Ubicacion*/
+#ubicacion{
+	background-color: #031124;
+	height: 400px;
+	font-size: 14px;
+}
+.direccion{
+	width: 140px;
+}

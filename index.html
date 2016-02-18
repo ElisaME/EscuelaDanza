@@ -12,7 +12,7 @@
 <body>
 	<!-- Inserta tu código aqui -->
 	<!-- Header -->
-	<header>
+	<header id="header">
 		<div class="container">
 			<!-- Titulo -->
 			<div class="row">
@@ -34,13 +34,110 @@
 	<!-- Banner con bailarines -->
 	<section id="banner">
 		<div class="container">
-			<div class="row">
+			<div class="row pt-4">
 				<div class="col-3">
-					<p class="text-big text-gray2 text-bold pt-2">STUDIO</p>
-					<p class="text-gray2 pt-2">Jukliart Studio is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from.</p>
+					<p class="text-big text-gray2 text-bold">STUDIO</p>
+					<p class="text-gray2 pt-2 mgb-2">Juliard Studio is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from.</p>
+					<div class="btn-inscribete text-center">
+						<a href="#" class="a-none-decoration text-gray2">Inscríbete</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!-- "Cita"/decorado/oferta de clases -->
+	<section id="cita">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="font-20 text-center pt-5">Juliart cuenta con una amplia trayectoria y reputacion, brindando una <br> formacion de excelencia a cientos de amantes de la danza.</p>
+					<!-- Decoracion -->
+					<div class="text-center"><img src="img/decoration_1.png"></div>
+					<!-- Boton Oferta de Clases -->
+					<div class="btn-clases text-center">
+						<a href="#" class="a-none-decoration text-gray2">Oferta de clases</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<!-- Banner con dos fotos -->
+	<section id="fotos">
+		<div class="row mg-0">
+			<!-- Foto1 -->
+			<div class="col-6 pd-0">
+				<img src="img/instructor_4.jpg">
+			</div>
+			<!-- Foto2 --><!-- Le puse un id a la segunda foto porque su ancho es menor a la foto1 -->
+			<div class="col-6 pd-0" id="foto2">
+			</div>
+			<!-- Texto Nuestros instructores con posicion absoluta -->
+			<div class="Instructores text-gray2 text-center">Nuestros instructores</div>
+		</div>
+	</section>
+	<!-- "Cita" -->
+	<section id="frase">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 pt-5">
+					<p class="text-40 text-center pt-5"><i>"La danza es un poema en el que cada movimiento es una palabra"</i></p>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<!-- Ubicacion -->
+	<section id="ubicacion">
+		<div class="container">
+			<div class="row">
+				<!-- Datos -->
+				<div class="col-6 text-gray2">
+					<p class="pt-10 lh">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<p class="pt-5 font-20 text-bold">Visítanos</p>
+					<div class="pt-5 direccion">The Julliard School 60 Lincoln Center Plaza New York, NY 10023 </div>
+					<p> (212) 799-5000</p>
+				</div>
+				<!-- Mapa -->
+				<div class="col-6 pt-5">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.466252740507!2d-73.98501728505516!3d40.77376274177251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585ff9df2f6d%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses-419!2smx!4v1455817938319" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contacto -->
+	<!-- Los cuadros de texto los hice con div, intente hacerlo con input pero no le entendi -->
+	<section id="contacto">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<p class="text-40 text-blue text-bold pt-5">Contáctanos</p>
+					<div class="datos mgt-2 mgb-2 pd-2 text-gray2">
+						<img src="img/nombre.png"> 
+						Nombre
+					</div>
+					<div class="datos mgt-2 mgb-2 pd-2 text-gray2">
+						<img src="img/email.png"> 
+						E-mail
+					</div>
+					<div class="datos mgt-2 mgb-2 pd-2 alto text-gray2">
+						<img src="img/lapiz.png"> 
+						Mensaje
+					</div>
+					<!-- Boton Enviar -->
+					<div class="btn-enviar text-center"><a href="#" class="a-none-decoration text-gray2">Enviar</a></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer id="footer">
+			<div class="row">
+				<div class="col-12 text-gray">
+					<p class="pt-2"> <img src="img/copyright.png">Escuela de danza. Todos los derechos reservados </p>
+				</div>
+			</div>
+	</footer>
 </body>
 </html>
