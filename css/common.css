@@ -12,17 +12,26 @@
 .p5{
 	padding: 5%;
 }
+.mgt-1{
+	margin-top: 1%
+}
 .mgt-2{
 	margin-top: 2%;
 }
 .mgb-2{
 	margin-bottom: 2%;
 }
+.mgb-5{
+	margin-bottom: 5%;
+}
 .pt-4{
 	padding-top: 4%;
 }
 .pt-10{
 	padding-top: 10%;
+}
+.pb-10{
+	padding-bottom: 10%;
 }
 /*Texto*/
 .text-bold{
@@ -39,6 +48,12 @@
 }
 .text-40{
 	font-size: 40px;
+}
+.font-12{
+	font-size: 12px;
+}
+.font-14px{
+	font-size: 14px;
 }
 /*Menu*/
 #header a:hover{
@@ -78,4 +93,13 @@
 #footer img{
 	max-width: 15px;
 	margin-left: 10px;
+}
+/*Transparencia*/
+.transparente{
+	background-color: black;
+	opacity: 0.5;
+}
+/*Boton encviar contacto*/
+#contacto a:hover{
+	font-weight: bold;
 }

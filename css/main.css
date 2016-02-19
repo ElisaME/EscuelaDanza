@@ -67,3 +67,10 @@
 .direccion{
 	width: 140px;
 }
+/*Hover botones*/
+#banner a:hover{
+	font-weight: bold;
+}
+#cita a:hover{
+	font-weight: bold;
+}

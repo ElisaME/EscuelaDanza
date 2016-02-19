@@ -1,1 +1,30 @@
 /* Inserta tu codigo aqui */
+#blog{
+	background-color: #F2F2F2;
+}
+#blog img{
+	max-width: 100%;
+}
+.foto{
+	width: 200px;
+	height: 130px;
+	overflow: hidden;
+}
+.btn-ver-mas{
+	width: 300px;
+	background-color: #192951;
+	border-radius: 5px;
+	padding: 1% 0;
+}
+#blog a:hover{
+	font-weight: bold;
+}
+.bg-gris{
+	background-color: #D8D8D8;
+}
+.left{
+	float: left;
+}
+.inline{
+	display: inline-block;
+}

@@ -1,1 +1,20 @@
 /* Inserta tu codigo aqui */
+/*Imagenes*/
+#clases{
+	background-color: #D8D8D8;
+}
+#clases img{
+	max-width: 100%;
+}
+.fotos{
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+.desc{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	top: 35%;
+	left: 10%;
+}
